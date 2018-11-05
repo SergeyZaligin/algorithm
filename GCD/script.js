@@ -1,11 +1,11 @@
-function nod () {
+function gcd () {
 
 	let a = parseInt(prompt('a='));
 	let b = parseInt(prompt('b='));
 	let min = undefined;
 
 	if (a === b) {
-		alert(`NODE=${a}`);
+		alert(`Greatest common divisor=${a}`);
 		return true;
 	}
 
@@ -23,4 +23,4 @@ function nod () {
 	console.log('b', b);
 }
 
-nod();
+gcd();
